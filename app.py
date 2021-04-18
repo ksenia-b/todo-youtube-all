@@ -13,6 +13,7 @@ class Task(db.Model):
     name = db.Column(db.String(50))
     content = db.Column(db.Text)
     complete = db.Column(db.Boolean, default=True)
+    #1
 
 
 @app.route('/task', methods=['POST'])
