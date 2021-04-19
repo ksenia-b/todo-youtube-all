@@ -127,4 +127,4 @@ def delete_task(id):
     return make_response(jsonify("Deleted!"), 200)
 
 if __name__ == '__main__':
-    app.run(debug=True, port="5000", host="104.154.119.247")
+    app.run(debug=True, port="5000", host="0.0.0.0")
